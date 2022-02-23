@@ -1,5 +1,5 @@
 # Instructions
-Vous devez fournir une solution Visual Studio contenant un projet de type 'site web' qui pourra être lancé en debug et qui répondra à la problématique ci-dessous...
+Vous devez fournir une solution Visual Studio via un repository public (GitHub, BitBucket, etv) contenant un projet de type 'site web' qui pourra être lancé en debug et qui répondra à la problématique ci-dessous...
 
 # But
 => Afficher une liste de personnages de Star Wars dans une page web
