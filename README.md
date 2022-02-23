@@ -1,37 +1,26 @@
 # Instructions
+Vous devez fournir une solution Visual Studio contenant un projet de type 'site web' qui pourra être lancé en debug et qui répondra à la problématique ci-dessous...
 
-Vous devez faire un programme qui pourra répondre à la problématique ci-dessous.
+# But
+=> Afficher une liste de personnages de Star Wars dans une page web
 
-Pour la partie back-end, vous pouvez utiliser le langage de programmation de votre choix. Veuillez 
-prendre note que Télé-Québec utilise, en ce moment, le langage C# sur les plateformes .Net et .Net 
-Core.
+# Contraintes
+=> Back-end : 
+Vous ne pouvez utiliser qu'une des 2 plateformes .Net Standard ou .Net Core en langage C#.
 
-Pour la partie front-end, vous devez écrire le programme en JavaScript. Vous devrez écrire le code sans 
-aucune librairie front-end (pas de jQuery par exemple). Par contre, vous pouvez utiliser les plus récentes 
-versions de JavaScript.
+=> Front-end: 
+Vous devez écrire le programme en JavaScript natif dans une de ses dernières versions (pas de jQuery ni autre framework!).
 
-L'objectif est de pouvoir discuter ensemble de votre approche et de la façon dont vous avez abordé le 
-problème.
+À développer et fournir :
+=> Back-end : 
+Un end point de Web API mettant à disposition la liste des personnages Star Wars issus du fichier json fourni dans le projet (ce fichier devra être inclu et lu dans le projet en tant que source de données).
+Un test unitaire avec la librairie de votre choix.
 
-Si vous n'arrivez pas à compléter le test, vous pouvez quand même nous envoyer votre code avec des 
-commentaires et des annotations (expliquez pourquoi vous n’avez pas complété le test, décrivez-nous 
-quelle approche vous pensez serait la bonne, etc.). 
+=> Front end : 
+Une vue MVC avec un minimum de HTML/CSS (titre, tableau) permettant un affichage clair de la liste des personnages Star Wars. 
+Le contenu du tableau doit donc être servi en Javascript par appel à votre Web API. 
+Vous devez afficher les caractéristiques suivantes pour chacun des personnages : name, height, mass et le nombre de films dans lequel le personnage apparaît. 
+De plus, vous devez laisser le soin à l’utilisateur de modifier l’ordre dans lequel les personnages apparaissent : par ordre alphabétique (name), par taille (height), par la masse (mass) ou par le nombre de films.
 
-## Problématique 
-
-À partir du chargement de la page (domContentLoaded), vous devez aller chercher et afficher une liste 
-de personnages de l'univers de Star Wars.
-
-Cette liste sera fournie via votre propre API back-end. Vous devez prendre les données qui sont fournies 
-dans le fichier starwars.json.
-
-Vous devez afficher les caractéristiques suivantes pour chacun des personnages : name, height, mass et 
-le nombre de films dans lequel le personnage apparaît (films).
-
-Vous devez utiliser le CSS Flexbox pour la mise en page des personnages.
-
-De plus, vous devez laisser le soin à l’utilisateur de modifier l’ordre dans lequel les personnages 
-apparaissent : par ordre alphabétique (name), par taille (height), par la masse (mass) ou par le nombre 
-de films dans lequel les personnages apparaissent (films).
-
-Bonus : Fournir un test unitaire avec la librairie de votre choix.
+# Remarque
+Il est important qu'un simple F5 sur le projet fourni permette de faire fonctionner cette solution.
