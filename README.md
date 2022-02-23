@@ -6,7 +6,7 @@ Vous devez fournir une solution Visual Studio contenant un projet de type 'site 
 
 # Contraintes
 => Back-end : 
-Vous ne pouvez utiliser qu'une des 2 plateformes .Net Standard ou .Net Core en langage C#.
+Vous ne pouvez utiliser que .Net Core en langage C#.
 
 => Front-end: 
 Vous devez écrire le programme en JavaScript natif dans une de ses dernières versions (pas de jQuery ni autre framework!).
